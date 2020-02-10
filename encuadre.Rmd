@@ -1,0 +1,15 @@
+---
+title: "Encuadre"
+---
+
+## Competencia
+
+Resolver sistemas dinámicos y discretos aplicando las funciones de Fourier, Transformada de Laplace y Transformada z, para sistemas de primer y segundo orden en el desarrollo, procedimientos y sistemas en mecatrónica, con un sentido de responsabilidad y confiabilidad en el manejo de los datos.
+
+## Contenido temático
+
+UNIDAD I. Series de Fourier.
+
+UNIDAD II. Transformada de Laplace.
+
+UNIDAD III. Transformada Z.

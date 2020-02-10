@@ -1,0 +1,21 @@
+---
+title: "Contacto"
+---
+
+![](images/UVM_web.jpg)
+
+### Docente
+
+M. en E. Luis Enrique Mendoza Ruiz
+
+## Correo electrónico institucional
+
+luis_mendozaru@my.uvm.edu.mx
+
+## Página personal en GitHub
+
+https://luisemendoza.github.io
+
+## Página de repositorios GitHub
+
+https://github.com/LuisEMendoza
