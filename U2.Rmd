@@ -1,0 +1,37 @@
+---
+title: "Unidad 2"
+output: html_document
+---
+
+## La Transformada de Laplace
+
+__Definición básica__ Si $f(x)$ está definida para $t\geq 0$, entonces la integral impropia $\int_0 ^\infty{K(s,t)f(t)dt}$ está definida como un límite:
+
+$$
+\int_0 ^\infty{K(s,t)f(t)dt}=\lim_{b\rightarrow \infty}{\int_0 ^\infty{K(s,t)f(t)dt}}
+$$
+
+Si existe el límite, se dice que la integral existe o es convergente; si no hay límite, la integral no existe y se afirma que es divergente. Este límite, en general, existe sólo para ciertos valores de la variable $s$. La elección $K(s, t) = e^{–st}$ produce una transformada integral especialmente importante.
+
+__Definición__ 
+
+Sea $f$ una función definida para $t \geq 0$. Entonces se dice que la integral
+
+$$
+L\{f(t)\}= \int_0 ^\infty{e^{-st}f(t)dt}
+$$
+
+es la __transformada de Laplace__ de $f$, siempre y cuando la integral converja.
+
+Cuando esta integral definitoria converge, el resultado es una función de $s$. En el análisis general, cuando utilicemos letras minúsculas nos referiremos a la función que se va a transformar, y letras mayúsculas denotarán su transformada de Laplace.
+
+### Ejemplo
+
+1. Calcule la transformada de Laplace de $f(t)=1$.
+
+
+
+
+
+
+

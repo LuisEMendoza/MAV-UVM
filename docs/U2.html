@@ -11,7 +11,7 @@
 
 
 
-<title>Series de Fourier.</title>
+<title>Unidad 2</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -330,12 +330,32 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Series de Fourier.</h1>
+<h1 class="title toc-ignore">Unidad 2</h1>
 
 </div>
 
 
-
+<div id="la-transformada-de-laplace" class="section level2">
+<h2>La Transformada de Laplace</h2>
+<p><strong>Definición básica</strong> Si <span class="math inline">\(f(x)\)</span> está definida para <span class="math inline">\(t\geq 0\)</span>, entonces la integral impropia <span class="math inline">\(\int_0 ^\infty{K(s,t)f(t)dt}\)</span> está definida como un límite:</p>
+<p><span class="math display">\[
+\int_0 ^\infty{K(s,t)f(t)dt}=\lim_{b\rightarrow \infty}{\int_0 ^\infty{K(s,t)f(t)dt}}
+\]</span></p>
+<p>Si existe el límite, se dice que la integral existe o es convergente; si no hay límite, la integral no existe y se afirma que es divergente. Este límite, en general, existe sólo para ciertos valores de la variable <span class="math inline">\(s\)</span>. La elección <span class="math inline">\(K(s, t) = e^{–st}\)</span> produce una transformada integral especialmente importante.</p>
+<p><strong>Definición</strong></p>
+<p>Sea <span class="math inline">\(f\)</span> una función definida para <span class="math inline">\(t \geq 0\)</span>. Entonces se dice que la integral</p>
+<p><span class="math display">\[
+L\{f(t)\}= \int_0 ^\infty{e^{-st}f(t)dt}
+\]</span></p>
+<p>es la <strong>transformada de Laplace</strong> de <span class="math inline">\(f\)</span>, siempre y cuando la integral converja.</p>
+<p>Cuando esta integral definitoria converge, el resultado es una función de <span class="math inline">\(s\)</span>. En el análisis general, cuando utilicemos letras minúsculas nos referiremos a la función que se va a transformar, y letras mayúsculas denotarán su transformada de Laplace.</p>
+<div id="ejemplo" class="section level3">
+<h3>Ejemplo</h3>
+<ol style="list-style-type: decimal">
+<li>Calcule la transformada de Laplace de <span class="math inline">\(f(t)=1\)</span>.</li>
+</ol>
+</div>
+</div>
 
 
 
