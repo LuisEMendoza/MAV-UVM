@@ -18,7 +18,7 @@ __Definición__
 Sea $f$ una función definida para $t \geq 0$. Entonces se dice que la integral
 
 $$
-L\{f(t)\}= \int_0 ^\infty{e^{-st}f(t)dt}
+\mathcal{L}\{f(t)\}= \int_0 ^\infty{e^{-st}f(t)dt}
 $$
 
 es la __transformada de Laplace__ de $f$, siempre y cuando la integral converja.
@@ -28,6 +28,12 @@ Cuando esta integral definitoria converge, el resultado es una función de $s$. 
 ### Ejemplo
 
 1. Calcule la transformada de Laplace de $f(t)=1$.
+
+- R: 
+
+$$
+\mathcal{L}\{1\}=\int_0 ^\infty{e^{-st}(1)dt}=\lim_{b \rightarrow \infty}{\int_0 ^\infty{e^{-st}dt}}
+$$
 
 
 
